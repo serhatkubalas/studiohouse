@@ -1,0 +1,565 @@
+@font-face {
+    font-family:"Lato Light Italic";
+    src:url("fonts/Lato-LightItalic.eot?") format("eot"),
+    url("fonts/Lato-LightItalic.woff") format("woff"),url("fonts/Lato-LightItalic.ttf") format("truetype");
+
+
+}
+@font-face{
+    font-family:"Baron Neue";
+    src:url("fonts/baron-neue.regular.otf") format("opentype");
+
+}
+@font-face{
+    font-family:"Lato Light";
+    src:url("fonts/Lato-Light.ttf") format("truetype");
+
+}
+@font-face{
+    font-family:"Diner Regular";
+    src:url("fonts/Diner-Regular-webfont.woff") format("woff");
+
+}
+
+
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    height:100%;
+
+}
+
+.page{
+    width: 100%;
+    height:100%;
+}
+.sections{
+    height: 100%;
+    width: 100%;
+}
+.section-1{
+    height: 30%;
+    width: 100%;
+    background-color: #09434b;
+}
+.section-1 img{
+    vertical-align: middle;
+    width: 50%;
+}
+.section-2{
+    height: 100%;
+    width: 100%;
+    color:#5a5a5a;
+    background-color: #dcddd5;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .title{
+      font-weight: bold;
+      color:#09434b;
+      padding-top: 3%;
+      
+  }
+  .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+  .adress{
+      font-size:13px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      height: 5%;
+      background-image: url(images/placeholder.png);
+      background-size:7%;
+      background-repeat: no-repeat;
+      margin-top:3%;
+
+      text-align: left;
+      background-color:white;
+      border-radius: 5px;
+      width: 70%;
+      display: inline-block;
+      background-position-x: 7%;
+      background-position-y: 40%;
+      
+  }
+.box-telephone{
+    margin-top:3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-color:white;
+    border-radius: 5px;
+    width: 70%;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    background-image: url(images/smartphone.png);
+    background-size:8%;
+    background-repeat: no-repeat;
+    background-position-x: 7%;
+    background-position-y: 40%;
+}
+.box-times{
+    margin-top:3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-color:white;
+    border-radius: 5px;
+    width: 70%;
+    height: 45px;
+    line-height: 45px;
+    background-size:8%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position-x: 7%;
+    background-position-y: 40%;
+    background-image: url(images/time.png);
+}
+.map{
+    margin-top: 3%;
+    
+    width: 75%;
+    display: inline-block;
+ 
+}
+iframe{
+    border-radius:10px;
+}
+.small-title{
+      font-size:11px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      height: 5%;
+      margin-top:3%;
+      text-align: center;
+      font-weight: bold;
+      color:#09434b;
+}
+.social{
+    z-index: 10;
+}
+.paintBlue{
+    background-color:#09434b;
+}
+.social-icons{
+    margin-top:3%;
+}
+.social-icons img{
+    width: 25px;
+    margin-right: 8px;
+}
+.particular{
+    bottom:0%;
+
+    position: fixed;
+    max-width: 100%;
+
+
+}
+.button-1,.button-2{
+    width: 80%;
+    height: 50px;
+    margin-top: 3%;
+    line-height: 50px;
+    border:1px solid;
+    border-radius: 5px;
+    border-color:white;
+    display: inline-block;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.particular-window{
+
+    height: 100%;
+    z-index: 999;
+
+}
+.particular-window img{
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.menu{
+    position: absolute;
+    
+}
+.whenTitle{
+    color:#09434b;
+    font-size:23px;
+    font-weight: bold;
+    word-break: break-word;
+    width: 50%;
+    line-height:25px;
+    margin:0 auto;
+    text-transform: uppercase;
+    
+}
+.untilTo{
+    margin-top:2%;
+    color:#c5b084;
+    font-weight: bold;
+    font-size:13px;
+    text-transform: uppercase;
+}
+.food{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:7px;
+}
+.food .food-name{
+    font-size:13px;
+    color:#165262;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.food .food-price{
+    font-size:11px;
+    color:#3b8389;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.allDayTitle{
+    color:#c5b084;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.untilTo-2{
+    color:#c5b084;
+    font-weight: bold;
+    font-size:12px;
+    text-transform: uppercase;
+}
+.place{
+    width:100%;
+    height: 45px;
+    border:1px solid #f5f5f5;
+    border-radius: 8px;
+    margin-top:8px;
+    line-height: 45px;
+    background-color:white;
+
+
+}
+table *{
+    text-align:-webkit-center;
+}
+.day,.person{
+    text-align: left !important;
+}
+
+.location_4{
+    top:10px;
+}
+.location{
+    
+    background-color:white;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    margin-top:3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    float: left;
+}
+.name input,.number input{
+
+    width: 100%;
+    border: 1px solid white;
+    height: 32px;
+    border-radius: 8px;
+    font-family:"Lato Light Italic";
+    font-size:14px;
+    
+}
+input{
+    text-align: left;
+    padding:5px;
+}
+.name,.number,.day,.person{
+    font-size:14px;
+}
+.name td,.number td{
+    text-align: left !important;
+}
+.day input,.person input{
+    border: 1px solid white;
+    height: 32px;
+    border-radius: 8px;
+    width: 100%;
+    font-family:"Lato Light Italic";
+    font-size:14px;
+   
+}
+
+.person input{
+    margin-left: 2px;
+ 
+}
+.private-messages td{
+    text-align: left;
+
+    font-size:14px;
+}
+.private-messages textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: left;
+}
+table{
+    z-index: 2;
+    width: 75% !important;
+    
+    margin:0 auto;
+}
+.submitButton td div{
+    width: 100%;
+    height: 35px;
+    font-weight: 500;
+    background-color: #bc9f69;
+    border:1px solid #f5f5f5;
+    border-radius: 8px; 
+    font-size: 14px;
+    color:white;
+    line-height: 35px;
+}
+.section-2-1,.section-2-2{
+    width: 75%;
+    margin: 0 auto;
+}
+hr{
+    
+    
+    margin-bottom: 0;
+    background-color: #f0f0f0;
+    border-color: white;
+    border-radius: 8px;
+
+}
+.topFoodName{
+  width: 80%;
+  float: left;
+  text-align: left;
+  font-family:"Lato Light";
+  font-weight: 600;
+  padding: 2px;
+  line-height: 24px;
+}
+.topFoodPrice{
+width: 20%;
+float: right;
+text-align: right;
+padding: 2px;
+font-size: 13px;
+line-height: 24px;
+font-family:"Lato Light Italic";
+font-weight: 600;
+}
+.foodName_Price{
+    text-transform: uppercase;
+    width: 100%;
+    height: 21px;
+    margin-top: 10px;
+    border-top:0.5px solid white;
+    border-radius: 2%;
+}
+.foodName_Price:last-child{
+    border-bottom:0.5px solid white;
+    height: 32px !important;
+    height: 21px;
+    border-radius: 2%;
+    margin-top: 10px;
+}
+.menuTitle{
+    font-family:"Baron Neue";
+    color: #165a64;
+    margin-bottom: 10px;
+}
+
+.foodName_content_price{
+    width: 100%;
+    height: auto;
+    border-top:0.5px solid white;
+    border-radius: 2%;
+}
+
+.foodName_content_price:last-child{
+    border-bottom:0.5px solid white;
+    height: auto !important;
+
+    border-radius: 2%;
+    margin-top: 10px;
+}
+.FoodContent{
+    font-family:"Lato Light Italic";
+    text-align: left;
+    width: 80%;
+    padding:2px;
+    word-break: break-word;
+    font-size:13px;
+}
+.z_in{
+    z-index: 1;
+}
+.boxes{
+    width: 85%;
+    height: 400px;
+    margin:0 auto;
+    color:white;
+    display: flex;
+    flex-flow: wrap;
+}
+.menuElement{
+    margin: 0 auto;
+    font-family:"Diner Regular";
+    height: 120px;
+    width: 45%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size:22px;
+    line-height: 180px;
+    float: left;
+    border: 1px solid white;
+    border-radius: 8px;
+    
+}
+.menuElement:nth-child(1)
+{
+    background-size: 50%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/appetizer.png);
+}
+.menuElement:nth-child(2)
+{
+    background-size: 30%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/steak.png);
+}
+.menuElement:nth-child(3)
+{
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/burger.png);
+}
+.menuElement:nth-child(4)
+{
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/hotdog.png);
+}
+.menuElement:nth-child(5)
+{
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/bread.png);
+}
+.menuElement:nth-child(6)
+{
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/salad.png);
+}
+
+
+
+
+
+
+
+.menu_Select_Element{
+    margin: 0 auto;
+    font-family:"Diner Regular";
+    height: 120px;
+    width: 45%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size:22px;
+    line-height: 180px;
+    float: left;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_Select_Element:nth-child(1){
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/reservation.png);
+}
+
+.menu_Select_Element:nth-child(2){
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/kampanya.png);
+}
+
+.menu_Select_Element:nth-child(3){
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/cocktailicon.png);
+}
+.menu_Select_Element:nth-child(4){
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/Foodicon.png);
+}
+
+.menu_Select_Element:nth-child(5){
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/shaker.png);
+}
+
+.menu_Select_Element:nth-child(6){
+    background-size: 35%;
+    background-position-y: 20% !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/contact.png);
+}
